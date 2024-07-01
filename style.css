@@ -1,0 +1,124 @@
+
+/* Réinitialisation de certains styles de base pour assurer une cohérence entre les navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style du corps de la page */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4F4F4;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Style de la navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li   {
+    display: inline;
+    margin: 0 10px;
+   
+    
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+main{
+    padding: 20px;
+}
+/* Style des sections pour les rendre distinctes et propres */
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+} 
+/* Style pour les images de profil */
+section img {
+    border-radius: 50%;   /* Applique un arrondi de 50% aux coins de l'image, la transformant en un cercle */
+    width: 200px;         /* Définit la largeur de l'image à 150 pixels */
+    height: 200px;        /* Définit la hauteur de l'image à 150 pixels */
+    object-fit: cover;    /* Indique à l'image de remplir entièrement la zone définie par width et height, tout en conservant son ratio d'aspect */
+    margin: 20px 0;       /* Ajoute une marge de 20 pixels en haut et en bas de chaque image */
+    display: block;       /* Définit l'image comme un élément de bloc, ce qui la place sur une ligne distincte */
+    margin-left: auto;    /* Centre l'image horizontalement en mettant automatiquement la marge à gauche */
+    margin-right: auto;   /* Centre l'image horizontalement en mettant automatiquement la marge à droite */
+}
+
+section h2  {
+    text-align: center;
+    color: rgb(41, 199, 186);
+}
+section ul{
+    padding-left: 30px;
+}
+/* Style du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    
+}
+.foot1 {
+    margin-top: 300px;
+}
+/* Styles spécifiques pour le formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #643f5e;
+}
+
+
+
